@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="flipkart" verbose="1">
+	<listeners>
+		<listener
+			class-name="com.muralitechnologies.ecommerce.flipkartautomation.utils.Listeners"></listener>
+	</listeners>
+	<test name="Functional Tests">
+		<parameter name="item" value="samsung" />
+		<classes>
+			<class name="com.muralitechnologies.ecommerce.flipkartautomation.tests.LoginTest" />
+			
+		</classes>
+	</test>
+</suite>
